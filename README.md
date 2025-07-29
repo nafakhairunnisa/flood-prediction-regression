@@ -264,7 +264,30 @@ Tabel 1. Kelebihan dan Kekurangan Model
 
 ## Evaluation
 
-Evaluasi model dilakukan menggunakan metrik evaluasi berupa **MSE**, **RMSE**, dan **R² (R-squared)** yang dapat dilihat pada tabel 2 berikut.
+Evaluasi model dilakukan menggunakan metrik evaluasi berupa **MSE**, **RMSE**, dan **R² (R-squared)**.
+
+**1. Mean Squared Error (MSE)**  
+MSE mengukur rata-rata kuadrat selisih antara nilai aktual dan nilai prediksi.
+```
+MSE = (1/n) * Σ [ (Y_i - Ȳ_i)² ]
+```
+**2. Root Mean Squared Error (RMSE)**  
+RMSE adalah akar dari MSE, yang mengembalikan nilai dalam satuan yang sama dengan target aslinya.
+```
+RMSE = √MSE = √[(1/n) * Σ [ (Y_i - Ȳ_i)² ]]
+```
+**3. Coefficient of Determination (R² Score)**  
+R² menunjukkan seberapa baik model menjelaskan variasi dalam data. Nilai mendekati 1 berarti prediksi sangat baik.
+```
+R² = 1 - [ Σ (Y_i - Ȳ_i)² / Σ (Ȳ_i - Ȳ̄)² ]
+```
+Keterangan:  
+- Y_i: Nilai aktual ke-i
+- Ȳ_i: Nilai prediksi model untuk ke-i
+- Ȳ̄: Rata-rata nilai aktual  
+- n: Jumlah sampel
+
+Evaluasi model dapat dilihat pada tabel 2 berikut.
 
 Tabel 2. Hasil Evaluasi Model
 
