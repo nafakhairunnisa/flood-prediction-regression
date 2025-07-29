@@ -1,5 +1,8 @@
 # Flood Prediction Project
 
+![Gambar Banjir oleh Misbahul Aulia di Unsplash](https://github.com/nafakhairunnisa/flood-prediction-regression/blob/main/misbahul-aulia-38CTbydRZXI-unsplash.jpg?raw=true)
+Foto oleh Misbahul Aulia di [Unsplash](https://unsplash.com/id/foto/orang-berjalan-di-jalan-pada-siang-hari-38CTbydRZXI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
 ## Overview
 Proyek ini bertujuan untuk mengembangkan model machine learning untuk prediksi banjir menggunakan teknik regresi. Proyek ini mengeksplorasi penggunaan pendekatan berbasis data untuk meningkatkan sistem peringatan dini dengan memprediksi probabilitas banjir secara terus-menerus daripada menggunakan klasifikasi biner.
 
