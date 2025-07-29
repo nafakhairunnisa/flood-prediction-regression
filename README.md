@@ -317,7 +317,7 @@ Penelitian ini secara langsung menjawab seluruh elemen *Business Understanding* 
 3. **Model regresi sebelumnya belum optimal**  
   Model yang dikembangkan menunjukkan peningkatan performa signifikan, terutama Linear Regression dengan **MSE sebesar 1.12 × 10⁻⁵** dan **RMSE sebesar 0.00334**, menandakan akurasi prediksi yang sangat tinggi.
 
-#### ✅ Goals:
+#### Goals:
 1. **Mengembangkan model kontinu untuk mitigasi risiko**  
   Model regresi dengan output kontinu berhasil dikembangkan dan dievaluasi melalui metrik seperti **RMSE** dan **R²**, yang sangat mendukung pengambilan keputusan mitigasi berbasis skala risiko.
 
@@ -327,7 +327,7 @@ Penelitian ini secara langsung menjawab seluruh elemen *Business Understanding* 
 3. **Evaluasi awal menggunakan data terbuka**  
   Dataset internasional digunakan sebagai studi awal. Hasilnya menunjukkan potensi tinggi untuk **adaptasi di konteks lokal (Indonesia)** dengan mempertimbangkan karakteristik demografis dan geografis setempat.
 
-#### ✅ Solution Statements:
+#### Solution Statements:
 1. **Tiga algoritma regresi diimplementasikan dan dibandingkan**  
   Implementasi **Linear Regression, GBR, dan ANN** sudah dilakukan dan dibandingkan secara sistematis menggunakan metrik **MSE, RMSE, dan R²**.
 
