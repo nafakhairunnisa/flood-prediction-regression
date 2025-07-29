@@ -41,7 +41,7 @@ git clone https://github.com/nafakhairunnisa/flood-prediction-regression.git
 
 Install requirements:
 ```
-pip install pandas numpy scikit-learn tensorflow matplotlib seaborn
+pip install pandas numpy scikit-learn tensorflow matplotlib seaborn scikeras
 ```
 
 Jalankan notebook:
